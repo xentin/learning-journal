@@ -1,0 +1,16 @@
+今日学习
+用lnmp一键安装完成完成了环境配置。
+完成了前端后端的配置。
+
+深度学习：
+使用input_data模块中read_data_sets()函数家在mnist数据集
+from tensorflow.examples.tutorials.mnist import input_data 
+mnist = input_data.read_data_sets('./data/',one_hot=True)
+返回mnist数据集中训练集train验证集validation测试集test样本数的函数
+1.print "train data size:",mnist.train.mun_examples
+2.print "validation data size",mnist.validation.mun.examples
+3.print "test data size:"mnist.test.mun_examples
+
+使用mnist.train.next_batch()函数将数据输入神经网络
+
+正在学习Mnist数据集手写数字识别
